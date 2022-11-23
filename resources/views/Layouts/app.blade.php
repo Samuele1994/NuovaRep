@@ -8,7 +8,7 @@
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
 <body>
-    <h1 class="text-primary">ciao a tutededti</h1>
+    <h1 class="text-primary">ciao a tutededtiiiiiii</h1>
     <h2></h2>
     <x-nav/>
     @yield('content')

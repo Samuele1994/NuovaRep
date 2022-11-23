@@ -20,9 +20,9 @@ class LibriController extends Controller
     ];
     if($id){
 
-        $libro = $libri[$id];
 
-        return view('libro', compact('libro'));
+//metodo alternativo al compact di scrittura con array:
+        return view('libro', ['libro' => $libri[$id]]);
 
     }else{
 
